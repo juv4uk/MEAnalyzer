@@ -1,0 +1,12 @@
+; tasks.my — durable task plan for MEAnalyzer (vendored third-party
+; Intel Engine/Graphics firmware analysis tool).
+
+((tasks . (
+  ("MEANALYZER-DOCUMENT-ROLE-AND-USAGE" . (
+    (priority . 4.0)
+    (capabilities . (documentation license firmware-analysis))
+    (origin . MEAnalyzer)
+    (description . "Vendored third-party Intel ME/graphics firmware analysis tool, own LICENSE present but no ecosystem NOTICE. Write a short NOTICE documenting its actual role in the HECI/ME hardware research line (wsm-os, minix, coreboot) -- which research steps actually invoke it, and confirm the vendored copy respects its upstream license (no unattributed modification).")
+    (done . ())
+  ))
+)))
